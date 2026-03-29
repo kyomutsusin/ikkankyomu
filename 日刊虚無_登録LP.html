@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日刊虚無 | 登録</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #0a0a0a;
+    color: #f5f2ec;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 24px;
+    letter-spacing: 0.04em;
+    line-height: 1.9;
+  }
+
+  .wrap {
+    max-width: 480px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .tag {
+    font-size: 10px;
+    letter-spacing: 0.4em;
+    color: #c9a96e;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .tag::before,
+  .tag::after {
+    content: '';
+    width: 32px;
+    height: 1px;
+    background: rgba(201,169,110,0.4);
+  }
+
+  .title {
+    font-family: 'Noto Serif JP', serif;
+    font-size: clamp(40px, 10vw, 72px);
+    font-weight: 300;
+    letter-spacing: 0.15em;
+    margin-bottom: 24px;
+    color: #f5f2ec;
+  }
+
+  .title span { color: #c9a96e; }
+
+  .sub {
+    font-size: 13px;
+    color: rgba(245,242,236,0.5);
+    margin-bottom: 16px;
+    line-height: 2;
+  }
+
+  .desc {
+    font-family: 'Noto Serif JP', serif;
+    font-size: clamp(14px, 2.5vw, 17px);
+    color: rgba(245,242,236,0.75);
+    line-height: 2;
+    margin-bottom: 48px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+
+  .form-wrap {
+    margin-bottom: 40px;
+  }
+
+  .note {
+    font-size: 11px;
+    color: rgba(245,242,236,0.25);
+    letter-spacing: 0.1em;
+    margin-top: 20px;
+  }
+
+  .footer {
+    margin-top: 64px;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    color: rgba(255,255,255,0.15);
+  }
+
+  /* Benchmark Emailフォームの上書きスタイル */
+  .bme-form input[type="email"] {
+    background: #111 !important;
+    border: 1px solid rgba(245,242,236,0.12) !important;
+    color: #f5f2ec !important;
+    border-radius: 0 !important;
+  }
+
+  .bme-form button {
+    background: #c9a96e !important;
+    color: #0a0a0a !important;
+    border-radius: 0 !important;
+    letter-spacing: 0.2em !important;
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <p class="tag">Daily Newsletter</p>
+
+  <h1 class="title">日刊<span>虚無</span></h1>
+
+  <p class="desc">
+    人生は虚無である。<br>
+    それでも引き受けるかどうか。<br><br>
+    毎日一口サイズで届く、<br>虚無の思想・哲学・人体実験ログ。
+  </p>
+
+  <div class="form-wrap">
+    <script async src="https://forms.jp.benchmarksend.com/assets/embed.js"></script>
+    <div data-bme-form-id="M8LpZdNI7fXgJR1JHywDZ"></div>
+  </div>
+
+  <p class="note">登録無料 / いつでも解除できます</p>
+
+  <div class="footer">
+    虚無通信 — 人生は虚無である。それでも引き受けるかどうか。
+  </div>
+
+</div>
+
+</body>
+</html>
